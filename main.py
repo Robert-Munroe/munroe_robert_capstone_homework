@@ -1,3 +1,6 @@
+# Robert Munroe
+# Homework
+
 import user_cart
 import calculations
 
