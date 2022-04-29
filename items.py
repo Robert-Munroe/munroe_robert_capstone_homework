@@ -10,4 +10,3 @@ class InventoryItem:
     item_name: str
     item_price: float
     item_type: str
-
