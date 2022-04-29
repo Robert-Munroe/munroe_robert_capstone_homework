@@ -35,3 +35,10 @@ def test_production_function_empty_cart():
     cart = []
     total = main.calculate_for_state(1, cart)
     assert total == 0
+
+
+def test_production_function_summation():
+    cart = [(items.InventoryItem("generic item c", 10, "everything else")),
+            items.InventoryItem("generic item d", 10, "everything else")]
+    total = main.calculate_for_state(2, cart)
+    assert total == 20
